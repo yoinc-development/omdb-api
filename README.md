@@ -12,7 +12,7 @@ A Java library that provides a simple integration of the OMDB API (https://www.o
 <dependency>
     <groupId>ch.yoinc</groupId>
     <artifactId>omdb-api</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 
