@@ -78,7 +78,7 @@ public class OmdbClientImpl implements OmdbClient {
                 .append("?apikey=").append(apiKey)
                 .append("&t=").append(cleanTitle(title))
                 .append("&type=movie")
-                .append("y=").append(year);
+                .append("&y=").append(year);
         return getMovie(title, plot, sb);
     }
 
@@ -99,7 +99,7 @@ public class OmdbClientImpl implements OmdbClient {
                 .append("?apikey=").append(apiKey)
                 .append("&i=").append(imdbId)
                 .append("&type=movie")
-                .append("y=").append(year);
+                .append("&y=").append(year);
         return getMovie(imdbId, plot, sb);
     }
 
@@ -120,7 +120,7 @@ public class OmdbClientImpl implements OmdbClient {
                 .append("?apikey=").append(apiKey)
                 .append("&t=").append(cleanTitle(title))
                 .append("&type=series")
-                .append("y=").append(year);
+                .append("&y=").append(year);
         return getSeries(title, plot, sb);
     }
 
@@ -141,7 +141,7 @@ public class OmdbClientImpl implements OmdbClient {
                 .append("?apikey=").append(apiKey)
                 .append("&i=").append(imdbId)
                 .append("&type=series")
-                .append("y=").append(year);
+                .append("&y=").append(year);
         return getSeries(imdbId, plot, sb);
     }
 
@@ -162,7 +162,7 @@ public class OmdbClientImpl implements OmdbClient {
                 .append("?apikey=").append(apiKey)
                 .append("&t=").append(cleanTitle(title))
                 .append("&type=episode")
-                .append("y=").append(year);
+                .append("&y=").append(year);
         return getEpisode(title, plot, sb);
     }
 
@@ -183,7 +183,7 @@ public class OmdbClientImpl implements OmdbClient {
                 .append("?apikey=").append(apiKey)
                 .append("&i=").append(imdbId)
                 .append("&type=episode")
-                .append("y=").append(year);
+                .append("&y=").append(year);
         return getEpisode(imdbId, plot, sb);
     }
 
